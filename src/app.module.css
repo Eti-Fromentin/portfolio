@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 10vh;
+  box-sizing: border-box;
+}
+
+.main {
+  z-index: 2;
+  margin: auto;
+  
+}
+
+.work, .resume {
+  font-size: 1.5em;
+  margin: 15vh auto 2vh auto;
+  width: 100%;
+  text-justify: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}  
+
+.worktitle, .resumeTitle {
+  padding-bottom: 5vh;
+  border-bottom: 1px solid #C1CBA4;
+  color: #e7e5d6;
+}
+
+
+
+
+

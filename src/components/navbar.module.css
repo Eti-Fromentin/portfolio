@@ -1,0 +1,23 @@
+.navbar {
+  width: 100%;
+  height: 8%;
+  position: fixed;
+  background-color: #374863;
+  display: flex;
+  z-index: 10;
+  top: 0;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  position: fixed;
+  padding: 0.5em;
+}
+
+.navbarText {
+  margin: 0 3vw 0 3vw;
+  font-weight: bold;
+  font-size: 1.3rem;
+  font-family: "Roboto", sans-serif;
+  color: #e7e5d6;
+}

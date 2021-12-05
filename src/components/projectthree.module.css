@@ -1,0 +1,38 @@
+.cardContainer {
+    width: 85vw;
+    height: auto;
+    margin:  3vh auto;
+    border-radius: 15%;
+    background-color: rgba(55, 72, 99, 0.5);
+    padding: 0.5em;
+    position: relative;
+}
+
+.cardTitle {
+    font-size: 1.7em;
+    color: #e7e5d6;
+    margin:0.5em;
+    font-weight: bold;
+}
+
+.logo {
+    height: 30%;
+    max-width: 30%;
+    margin: 1em;
+    float: left;
+}
+
+.description {
+    color: #e7e5d6;
+    font-size: 0.7em;
+    text-align: justify;
+    margin-top: 5vh;
+}
+
+.specs {
+    margin: 8vh auto 2vh 3vw;
+    color: #e7e5d6;
+    font-size: 0.8em;
+    text-align: justify;
+}
+
