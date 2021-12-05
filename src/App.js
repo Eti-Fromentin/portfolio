@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -9,8 +9,11 @@ import Navbar from "./components/navbar";
 import ProjectOne from "./components/projectone";
 import ProjectTwo from "./components/projecttwo";
 import ProjectThree from "./components/projectthree";
+import LanguageButton from "./components/languageButton";
 
 function App() {
+  const [language, setLanguage] = useState('english')
+
   useEffect(() => {
     Aos.init({ duration: 1500 });
   }, []);
@@ -18,19 +21,20 @@ function App() {
   return (
     <div className={styles.App}>
       <Background />
-      <Navbar />
+      <Navbar lang={language} />
+      <LanguageButton setLanguage={setLanguage} />
       <main className={styles.main}>
-        <Intro />
+        <Intro lang={language}/>
         <section className={styles.work}>
           <h2 className={styles.worktitle}>My work so far</h2>
           <div data-aos="flip-right" data-aos-once="false">
-            <ProjectOne />
+            <ProjectOne lang={language}/>
           </div>
           <div data-aos="flip-left" data-aos-once="false">
-            <ProjectTwo />
+            <ProjectTwo lang={language}/>
           </div>
           <div data-aos="flip-right" data-aos-once="false">
-            <ProjectThree />
+            <ProjectThree lang={language}/>
           </div>
         </section>
         <section className={styles.resume}>

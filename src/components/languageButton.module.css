@@ -1,0 +1,14 @@
+.btnContainer {
+    width: 40px;
+    height: 70px;
+    z-index: 5;
+    position: absolute;
+    right: 0;
+    margin: -30px 10px 0 10px;
+    
+}
+
+.languageSelect {
+    border: none;
+    background-color: rgba(55, 72, 99, 0.5);
+}

@@ -3,7 +3,7 @@
     width: 90vw;
     height: 70vh;
     z-index: 1;
-    margin: 5vh auto 20vh auto;
+    margin: 10vh auto 20vh auto;
 }
 
 .name {
@@ -28,5 +28,6 @@
 
 .avatar {
     width: 60%;
+    max-height: 30%;
     margin-bottom: 3vh;
 }
