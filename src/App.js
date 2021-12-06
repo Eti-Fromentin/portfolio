@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -10,9 +10,16 @@ import ProjectOne from "./components/projectone";
 import ProjectTwo from "./components/projecttwo";
 import ProjectThree from "./components/projectthree";
 import LanguageButton from "./components/languageButton";
+import Resume from "./components/resume";
 
 function App() {
-  const [language, setLanguage] = useState('english')
+  const [language, setLanguage] = useState('english');
+  const introRef = useRef(null);
+  const worksRef = useRef(null);
+  const resumeRef = useRef(null);
+
+  const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop - 100);
+
 
   useEffect(() => {
     Aos.init({ duration: 1500 });
@@ -21,12 +28,12 @@ function App() {
   return (
     <div className={styles.App}>
       <Background />
-      <Navbar lang={language} />
+      <Navbar lang={language} scroll={scrollToRef} references={{introRef, worksRef, resumeRef}} />
       <LanguageButton setLanguage={setLanguage} />
-      <main className={styles.main}>
+      <main className={styles.main} ref={introRef}>
         <Intro lang={language}/>
-        <section className={styles.work}>
-          <h2 className={styles.worktitle}>My work so far</h2>
+        <section className={styles.work} ref={worksRef}>
+          <h2 className={styles.worktitle} >My work so far</h2>
           <div data-aos="flip-right" data-aos-once="false">
             <ProjectOne lang={language}/>
           </div>
@@ -37,9 +44,9 @@ function App() {
             <ProjectThree lang={language}/>
           </div>
         </section>
-        <section className={styles.resume}>
+        <section className={styles.resume} ref={resumeRef}>
           <h2 className={styles.resumeTitle}>Who Am I ?</h2>
-          <p></p>
+          <Resume lang={language} />
         </section>
       </main>
     </div>

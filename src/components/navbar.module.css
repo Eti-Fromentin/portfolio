@@ -20,3 +20,7 @@
   font-family: "Roboto", sans-serif;
   color: #e7e5d6;
 }
+
+.navbarText:hover {
+  cursor: pointer;
+}
