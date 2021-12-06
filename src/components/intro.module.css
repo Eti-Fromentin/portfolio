@@ -24,10 +24,12 @@
     margin: 5vh 0 5vh 0;
     color: #e7e5d6;
     width: 90vw;
+    font-size: 1.2em;
 }
 
 .avatar {
     width: 60%;
     max-height: 30%;
     margin-bottom: 3vh;
+    filter: grayscale(60%);
 }

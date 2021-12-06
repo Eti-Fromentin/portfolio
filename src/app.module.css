@@ -9,10 +9,10 @@
 .main {
   z-index: 2;
   margin: auto;
-  
 }
 
-.work, .resume {
+.work,
+.resume {
   font-size: 1.5em;
   margin: 15vh auto 2vh auto;
   width: 100%;
@@ -21,15 +21,20 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-}  
+}
 
-.worktitle, .resumeTitle {
+.worktitle,
+.resumeTitle {
   padding-bottom: 5vh;
-  border-bottom: 1px solid #C1CBA4;
+  border-bottom: 1px solid #c1cba4;
   color: #e7e5d6;
 }
 
-
-
-
-
+@media screen and (min-width: 600px) {
+  .projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  } 
+}

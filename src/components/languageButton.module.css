@@ -1,5 +1,5 @@
 .btnContainer {
-    width: 40px;
+    width: 50px;
     height: 70px;
     z-index: 5;
     position: absolute;
@@ -10,5 +10,7 @@
 
 .languageSelect {
     border: none;
-    background-color: rgba(55, 72, 99, 0.5);
+    background-color: rgba(55, 72, 99, 0.2);
+    /* height: 40%; */
+    font-size: 20px;
 }

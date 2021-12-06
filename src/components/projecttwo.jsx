@@ -11,7 +11,7 @@ function ProjectTwo() {
       {/* <a
         target="_blank"
         rel="noreferrer"
-        href=""
+        href="https://adecisy.github.io/Piano-Piano/"
       > */}
       <img className={styles.logo} src={logo} alt="Lazy Nights Logo" />
       {/* </a> */}
@@ -21,10 +21,10 @@ function ProjectTwo() {
         <br />
       </p>
       <p className={styles.specs}>
-        Made with ReactJs, NodeJs, MySql and external librairies.
-        <br />
-        Features: Random list of food, drinks and movies from different api.
+        Made with ReactJs, NodeJs, MySql and external librairies, use of different api
         Favorites and basket feature, barcode scanner.
+        <br />
+        Not yet deployed.
       </p>
     </div>
   );

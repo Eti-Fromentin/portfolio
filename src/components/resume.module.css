@@ -4,5 +4,12 @@
 
 
 .resumeText {
-    color: #e7e5d6;
+    font-size:0.8em;
+    text-justify: auto;
 }
+
+@media screen and (min-width: 600px) {
+    .resumeText {
+        font-size:1em; 
+    }
+  }

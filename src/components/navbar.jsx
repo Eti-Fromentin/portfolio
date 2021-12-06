@@ -10,15 +10,15 @@ function Navbar(props) {
           props.scroll(props.references.introRef);
         }}
       >
-        Intro
+        Home
       </div>
       <div
         className={styles.navbarText}
         onClick={() => {
-          props.scroll(props.references.worksRef);
+          props.scroll(props.references.worksRef); 
         }}
       >
-        Projects
+        Works
       </div>
       <div
         className={styles.navbarText}
@@ -28,7 +28,9 @@ function Navbar(props) {
       >
         Resume
       </div>
-      <div className={styles.navbarText}> Contact</div>
+      <div className={styles.navbarText} onClick={() => {
+          props.scroll(props.references.contactRef);
+        }}> Contact</div>
     </nav>
   );
 }
