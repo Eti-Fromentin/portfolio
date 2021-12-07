@@ -8,13 +8,13 @@ function ProjectThree() {
   return (
     <div className={styles.cardContainer}>
       <div className={styles.cardTitle}>Piano Piano</div>
-      {/* <a
+      <a
         target="_blank"
         rel="noreferrer"
-        href=""
-      > */}
-      <img className={styles.logo} src={logo} alt="Lazy Nights Logo" />
-      {/* </a> */}
+        href="https://adecisy.github.io/Piano-Piano/"
+      >
+        <img className={styles.logo} src={logo} alt="Lazy Nights Logo" />
+      </a>
       <p className={styles.description}>
         The result of a 24 hours Hackathon.
         <br />

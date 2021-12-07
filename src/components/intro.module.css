@@ -3,11 +3,20 @@
     width: 90vw;
     height: 70vh;
     z-index: 1;
-    margin: 5vh auto 20vh auto;
+    margin: 10vh auto 20vh auto;
 }
 
 .name {
     font-size: 2.5em;
+    margin: 0;
+    color: #e7e5d6;
+    width: 100%;
+    margin: 5vh 0 5vh 0;
+    text-justify: none;
+}
+
+.nameJP {
+    font-size: 1.5em;
     margin: 0;
     color: #e7e5d6;
     width: 100%;
@@ -24,9 +33,20 @@
     margin: 5vh 0 5vh 0;
     color: #e7e5d6;
     width: 90vw;
+    font-size: 1.2em;
 }
 
 .avatar {
     width: 60%;
+    max-height: 30%;
     margin-bottom: 3vh;
+    filter: grayscale(60%);
 }
+
+@media screen and (min-width: 600px) { 
+    .introText {
+        width: 70vw;
+        display: flex;
+        margin: 10vh auto;
+    }
+   }

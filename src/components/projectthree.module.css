@@ -36,3 +36,22 @@
     text-align: justify;
 }
 
+@media screen and (min-width: 600px) { 
+    .cardContainer {
+     width: 25vw;
+     height: 40vh;
+    }
+
+    .specs {
+        margin: 5vh auto 2vh 3vw;
+    }
+
+    .logo {
+        height: 10vh;
+        max-width: auto;
+       }
+       
+       .cardTitle {
+           margin: 0.2em;
+       }
+   }

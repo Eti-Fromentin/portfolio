@@ -11,13 +11,30 @@
   align-items: center;
   justify-content: space-evenly;
   position: fixed;
-  padding: 0.5em;
 }
 
 .navbarText {
-  margin: 0 3vw 0 3vw;
-  font-weight: bold;
+  margin: auto;
+  font-weight: 700;
   font-size: 1.3rem;
   font-family: "Roboto", sans-serif;
   color: #e7e5d6;
 }
+
+.navbarText:hover {
+  cursor: pointer;
+}
+
+.navbarTextActive {
+  
+  border-bottom: solid 1px #c1cba4;
+  margin: auto;
+  font-size: 1.3rem;
+  font-weight:700;
+  font-family: "Roboto", sans-serif;
+  color: #c1cba4;
+  filter: drop-shadow(0 0 0.75rem #c1cba4);
+  
+}
+
+

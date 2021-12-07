@@ -1,0 +1,35 @@
+.contact {
+  color: #e7e5d6;
+  font-size: 100%;
+  margin: 5vh auto 5vh auto;
+}
+
+.logo {
+  height: 30px;
+  filter: grayscale(70%);
+  border-radius: 80%;
+  margin: 2vh;
+}
+
+.logo2 {
+  height: 40px;
+  filter: grayscale(70%);
+  border-radius: 80%;
+  margin: 2vh;
+}
+.arrowBtn {
+  -webkit-border-radius: 50;
+  -moz-border-radius: 50;
+  border-radius: 50px;
+  margin: 5vh auto 0 auto;
+  text-decoration: none;
+  height: 80px;
+  width: 60px;
+  background-color: rgba(231, 229, 214, 0.8);
+}
+
+.arrow {
+  height: 30px;
+  width: auto;
+  margin: 0;
+}
