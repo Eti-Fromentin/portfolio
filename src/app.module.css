@@ -12,7 +12,8 @@
 }
 
 .work,
-.resume {
+.resume,
+.contact {
   font-size: 1.5em;
   margin: 15vh auto 2vh auto;
   width: 100%;
@@ -36,5 +37,11 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-  } 
+  }
+
+  /* .work,
+  .resume,
+  .contact {
+    margin: 25vh auto 0 auto;
+  } */
 }

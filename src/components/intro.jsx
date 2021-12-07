@@ -4,11 +4,11 @@ import styles from "./intro.module.css";
 
 import avatar from '../assets/avatar.svg';
 
-function Intro() {
+function Intro({lang}) {
   return (
     <div className={styles.intro}>
-        <h1 className={styles.name}>
-            Etienne Fromentin
+        <h1 className={styles.nameJP}>
+          {lang === 'japanese' ? 'エチエンヌ フロマンタン' : 'Etienne Fromentin'}  
         </h1>
         <img src={avatar} alt='avatar' className={styles.avatar} />
    

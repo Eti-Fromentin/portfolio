@@ -5,7 +5,7 @@ import styles from './background.module.css'
 function Background() {
     return (
       
-<div class={styles.background}>
+<div className={styles.background}>
    <span></span>
    <span></span>
    <span></span>
