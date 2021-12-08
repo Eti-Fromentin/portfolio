@@ -1,6 +1,6 @@
 # Step 1
 
-FROM node:10-alpine as build-step
+FROM node:14 as build-step
 
 RUN mkdir /app
 
@@ -19,4 +19,5 @@ RUN npm run build
 FROM nginx:1.17.1-alpine
 
 COPY --from=build-step /app/build /usr/share/nginx/html
+EXPOSE 80
 
