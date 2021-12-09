@@ -46,7 +46,7 @@ const languageObject = {
       six: "This is just the beginning...",
       seven:
         "If you want to see a good old resume on paper, feel free to download it",
-      download: "HERE",
+      download: " HERE",
     },
     contact: {
       mail: "You can send me a email:",
@@ -101,7 +101,7 @@ const languageObject = {
       six: "Et ce n'est que le début...",
       seven:
         "Si vous préférez un bon vieux CV en pdf, vous pouvez le trouver ",
-      download: "ICI",
+      download: " ICI",
     },
     contact: {
       mail: "Je suis joignable par mail:",
@@ -124,10 +124,10 @@ const languageObject = {
     intro: {
       name: "エチエンヌ フロマンタン",
       title: "ウェブ・デベロッパー",
-      text: "日本の美食に携わってきましたが、Wild Code Schoolと言う学校で Javascript、ReactJs、NodeJs、などについて学んで人生を変えました.",
+      text: "日本の美食に携わってきましたが、Wild Code Schoolと言う学校で Javascript、ReactJs、NodeJs、などについて学んで人生を変えました。",
     },
     projectOne: {
-      description1: "フォーメーションの最初のプロジェクト",
+      description1: "フォーメーションの最初のプロジェクト。",
       description2:
         "学生がランチやお酒を楽しむためのレストランやバーを紹介するアプリです。",
       specs: "HTML、CSS、Javascriptを使って作りました。",
@@ -156,7 +156,7 @@ const languageObject = {
       six: "これはまだ始まったばかりです。。。",
       seven:
         "古き時代の履歴書を紙で見たいという方は、ダウンロードしてください。",
-      download: "ここ",
+      download: " ここ",
     },
     contact: {
       mail: "メールを送ることができます、遠慮なくどうぞ。",
