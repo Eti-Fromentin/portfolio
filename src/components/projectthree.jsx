@@ -4,7 +4,7 @@ import logo from "../assets/logoPiano.png";
 
 import styles from "./projectthree.module.css";
 
-function ProjectThree() {
+function ProjectThree({ lang, chosenLangObj }) {
   return (
     <div className={styles.cardContainer}>
       <div className={styles.cardTitle}>Piano Piano</div>
@@ -16,14 +16,14 @@ function ProjectThree() {
         <img className={styles.logo} src={logo} alt="Lazy Nights Logo" />
       </a>
       <p className={styles.description}>
-        The result of a 24 hours Hackathon.
+      {chosenLangObj.description1}
         <br />
-        An app to play the piano, with kids in mind.
+        {chosenLangObj.description2}
       </p>
       <p className={styles.specs}>
-        Made with ReactJs and external librairies.
+      {chosenLangObj.specs1}
         <br />
-        Features: Piano, record and play.
+        {chosenLangObj.specs2}
       </p>
     </div>
   );

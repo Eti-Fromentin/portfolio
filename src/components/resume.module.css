@@ -1,15 +1,18 @@
 .resume {
-    color: #e7e5d6;
+  color: #e7e5d6;
 }
 
-
 .resumeText {
-    font-size:0.8em;
-    text-justify: auto;
+  font-size: 0.8em;
+  text-justify: auto;
 }
 
 @media screen and (min-width: 600px) {
-    .resumeText {
-        font-size:1em; 
-    }
+  .resumeText {
+    font-size: 1em;
   }
+
+  .resume {
+    padding: 1.5em 10em;
+  }
+}

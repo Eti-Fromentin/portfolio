@@ -7,18 +7,18 @@ import linkedinLogo from "../assets/linkedin-logo.png";
 import githubLogo from "../assets/github-logo.png";
 import upArrow from "../assets/upArrow.png";
 
-function Contact(props) {
+function Contact({ lang, scroll, reference, chosenLangObj}) {
   return (
     <div className={styles.contact}>
       <p>
-        You can send me a email:
+        {chosenLangObj.mail}
         <br />
         <a href="mailto:fromentin.etienne@gmail.com">
           <img className={styles.logo} src={gmailLogo} alt="Gmail logo" />
         </a>
       </p>
       <p>
-        You can find me on LinkedIn:
+      {chosenLangObj.linkedin}
         <br />
         <a
           href="https://www.linkedin.com/in/eti-fromentin/"
@@ -33,7 +33,7 @@ function Contact(props) {
         </a>
       </p>
       <p>
-        You can visit my GitHub profile:
+      {chosenLangObj.github}
         <br />
         <a
           href="https://github.com/Eti-Fromentin"
@@ -45,7 +45,7 @@ function Contact(props) {
       </p>
 
       <button className={styles.arrowBtn} onClick={() => {
-          props.scroll(props.reference);
+          scroll(reference);
         }}>
         <img className={styles.arrow} src={upArrow} alt="Up Arrow" />
       </button>

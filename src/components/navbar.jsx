@@ -1,36 +1,55 @@
 import React from "react";
 import styles from "./navbar.module.css";
 
-function Navbar(props) {
+function Navbar({ lang, scroll, chosenLangObj, references, inView }) {
   return (
     <nav className={styles.navbar}>
       <div
-        className={props.inView.inViewIntro && !props.inView.inViewWorks ? styles.navbarTextActive : styles.navbarText}
+        className={
+          inView.inViewIntro && !inView.inViewWorks
+            ? styles.navbarTextActive
+            : styles.navbarText
+        }
         onClick={() => {
-          props.scroll(props.references.introRef);
+          scroll(references.introRef);
         }}
       >
-        Home
+        {chosenLangObj.home}
       </div>
       <div
-        className={props.inView.inViewWorks && !props.inView.inViewResume ? styles.navbarTextActive : styles.navbarText}
+        className={
+          inView.inViewWorks && !inView.inViewResume
+            ? styles.navbarTextActive
+            : styles.navbarText
+        }
         onClick={() => {
-          props.scroll(props.references.worksRef); 
+          scroll(references.worksRef);
         }}
       >
-        Works
+        {chosenLangObj.works}
       </div>
       <div
-        className={props.inView.inViewResume ? styles.navbarTextActive : styles.navbarText}
+        className={
+          inView.inViewResume ? styles.navbarTextActive : styles.navbarText
+        }
         onClick={() => {
-          props.scroll(props.references.resumeRef);
+          scroll(references.resumeRef);
         }}
       >
-        Resume
+        {chosenLangObj.resume}
       </div>
-      <div className={props.inView.inViewContact && !props.inView.inViewResume ? styles.navbarTextActive : styles.navbarText} onClick={() => {
-          props.scroll(props.references.contactRef);
-        }}> Contact</div>
+      <div
+        className={
+          inView.inViewContact && !inView.inViewResume
+            ? styles.navbarTextActive
+            : styles.navbarText
+        }
+        onClick={() => {
+          scroll(references.contactRef);
+        }}
+      >
+        {chosenLangObj.contact}
+      </div>
     </nav>
   );
 }
