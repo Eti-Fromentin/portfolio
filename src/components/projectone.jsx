@@ -3,7 +3,7 @@ import React from "react";
 import WildAdvisorLogo from "../assets/Wild-advisor-logo.png";
 import styles from "./projectone.module.css";
 
-function ProjectOne() {
+function ProjectOne({ lang, chosenLangObj }) {
   return (
     <div className={styles.cardContainer}>
       <div className={styles.cardTitle}>Wild Advisor</div>
@@ -19,17 +19,15 @@ function ProjectOne() {
         />
       </a>
       <p className={styles.description}>
-        First project of my formation.
+        {chosenLangObj.description1}
         <br />
-        An app that present a selection of restaurants and bar for students to
-        get lunch or drinks.
+        {chosenLangObj.description2}
         <br />
       </p>
       <p className={styles.specs}>
-        Made with HTML, CSS and vanilla Javascript.
+        {chosenLangObj.specs}
         <br />
-        Features: Dynamic list of shops, Favorites using local storage, search
-        engine.
+        {chosenLangObj.features}
       </p>
     </div>
   );

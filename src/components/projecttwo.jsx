@@ -4,7 +4,7 @@ import logo from "../assets/logo.png";
 
 import styles from "./projecttwo.module.css";
 
-function ProjectTwo() {
+function ProjectTwo({ lang, chosenLangObj }) {
   return (
     <div className={styles.cardContainer}>
       <div className={styles.cardTitle}>Lazy Nights</div>
@@ -16,13 +16,11 @@ function ProjectTwo() {
       <img className={styles.logo} src={logo} alt="Lazy Nights Logo" />
       {/* </a> */}
       <p className={styles.description}>
-        An app that give the user a choice of some very caloric recipe, junk
-        food, drinks and junk movies for a "Lazy Night"
+      {chosenLangObj.description}
         <br />
       </p>
       <p className={styles.specs}>
-        Made with ReactJs, NodeJs, MySql and external librairies, use of different api
-        Favorites and basket feature, barcode scanner.
+      {chosenLangObj.specs}
         <br />
         Not yet deployed.
       </p>

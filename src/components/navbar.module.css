@@ -15,9 +15,8 @@
 
 .navbarText {
   margin: auto;
-  font-weight: 700;
-  font-size: 1.3rem;
-  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
   color: #e7e5d6;
 }
 
@@ -26,15 +25,20 @@
 }
 
 .navbarTextActive {
-  
   border-bottom: solid 1px #c1cba4;
   margin: auto;
   font-size: 1.3rem;
   font-weight:700;
-  font-family: "Roboto", sans-serif;
   color: #c1cba4;
   filter: drop-shadow(0 0 0.75rem #c1cba4);
   
+}
+
+@media screen and (min-width: 600px) {
+  .navbarText {
+    font-weight: 700;
+    font-size: 1.3rem;
+  }
 }
 
 
