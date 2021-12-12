@@ -31,17 +31,24 @@
   color: #e7e5d6;
 }
 
+.avatarCopyright {
+  font-size: 1rem;
+  color: #c1cba4;
+  margin-top: 10vh;
+}
+
 @media screen and (min-width: 600px) {
   .projects {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
+    margin: 2vh 2vw;
   }
 
-  /* .work,
-  .resume,
-  .contact {
-    margin: 25vh auto 0 auto;
-  } */
+  .project {
+    margin: 0 5vw;
+  }
+
 }

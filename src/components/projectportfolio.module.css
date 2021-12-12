@@ -26,7 +26,7 @@
   color: #e7e5d6;
   font-size: 0.7em;
   text-align: justify;
-  margin-top: 5vh;
+  margin: 2vh 2vw auto 2vw;
 }
 
 .specs {
@@ -42,10 +42,6 @@
     height: 45vh;
   }
 
-  .description {
-    margin: 3vh 1vw auto auto;
-  }
-
   .specs {
     margin: 6vh 2vw 1vh 3vw;
   }
@@ -53,6 +49,10 @@
   .logo {
     height: 10vh;
     max-width: auto;
+  }
+
+  .description {
+    margin: 3vh 1vw auto auto;
   }
 
   .cardTitle {
