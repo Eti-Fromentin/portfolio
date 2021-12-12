@@ -91,7 +91,7 @@ const languageObject = {
     projectThree: {
       description1: "Résultat d'un Hackathon de 24h.",
       description2:
-        "Une application pour jouer du piano en touchscreen ou clavier, avec l'apprentissage des tout-petits.",
+        "Une application pour jouer du piano en touchscreen ou clavier, avec l'apprentissage des tout-petits en tête.",
       specs1: "ReactJs et librairies externes.",
       specs2: "Piano, enregistrement et lecture.",
     },
