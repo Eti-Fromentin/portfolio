@@ -28,13 +28,17 @@ const languageObject = {
       description:
         'An app that give the user a choice of some very caloric recipes, junk foods, drinks and junk movies for a "Lazy Night"',
       specs:
-        "Made with ReactJs, NodeJs, MySql and external librairies, use of different api, Favorites and basket feature, barcode scanner.",
+        "Made with ReactJs, NodeJs, MySql and external libraries, use of different api, Favorites and basket feature, barcode scanner.",
     },
     projectThree: {
       description1: "The result of a 24 hours Hackathon.",
       description2: "An app to play the piano, with kids in mind.",
-      specs1: "Made with ReactJs and external librairies.",
+      specs1: "Made with ReactJs and external libraries.",
       specs2: "Features: Piano, record and play.",
+    },
+    projectPortfolio: {
+      description: "And of course, this portfolio. This is the first draft, so it might change over time, but It will keep this modest esthetic, as I am.",
+      specs: "Made with ReactJs and external libraries"
     },
     resume: {
       one: "Back in the 2002 I graduated in Japanese Studies, and began to work in a japanese restaurant in Paris. This job began my career, from server, to manager, to director, in some of the best japanese restaurant in Paris.",
@@ -77,7 +81,7 @@ const languageObject = {
         "Un site qui liste une sélection de lieux de restauration aux alentours de la formation.",
       specs: "HTML, CSS et Javascript/Manipulation du DOM.",
       features:
-        "Fonctionnalités: Liste dynamique d'enseignes, favoris (avec LocalStorage), et simple moteur de recherche.",
+        "Liste dynamique d'enseignes, favoris (LocalStorage), et simple moteur de recherche.",
     },
     projectTwo: {
       description: `Site proposant des choix de recettes, plats à emporter, boissons, très caloriques, avec des films "Nanard", pour l'organisation d'une "Lazy Night"`,
@@ -91,8 +95,12 @@ const languageObject = {
       specs1: "ReactJs et librairies externes.",
       specs2: "Piano, enregistrement et lecture.",
     },
+    projectPortfolio: {
+      description: "Bien sûr, ce portfolio, que j'ai voulu à mon image, modeste et sans extravagances. Il s'agit d'une 1ére version, et qui évoluera, mais dans la même direction.",
+      specs: "ReactJs et librairies externes."
+    },
     resume: {
-      one: "J'ai fini mes études de LLCE Japonais en 2002, et j'ai commencé alors à travailler dans un authentique restaurant japonais à Paris. Cela a lancé ma carrière, de chef de rang à manager et directeur",
+      one: "J'ai fini mes études de LLCE Japonais en 2002, et j'ai commencé alors à travailler dans un authentique restaurant japonais à Paris. Cela a lancé ma carrière, de chef de rang à manager et directeur.",
       two: "Incollable sur les sushis 🍣 !",
       three:
         "Il y a quelques années, j'ai ressenti de la lassitude et je me suis mis en tête de changer de vie.",
@@ -146,8 +154,12 @@ const languageObject = {
       specs1: "ReactJsと外部のライブラリで作られています。",
       specs2: "機能：ピアノ、録音、再生。",
     },
+    projectPortfolio: {
+      description: "もちろん、このポートフォリオもです。これは初稿なので、時間とともに変わっていくかもしれませんが、私としてはこのシンプルな美学を維持していきたいと思っています。",
+      specs: "ReactJsと外部のライブラリで作られています。"
+    },
     resume: {
-      one: "2002年に日本学科を卒業した私は、パリの日本料理店で働き始めました。この仕事が私のキャリアの始まりで、パリの最高の日本食レストランで、給仕、マネージャー、ディレクターを務めました",
+      one: "2002年に日本学科を卒業した私は、パリの日本料理店で働き始めました。この仕事が私のキャリアの始まりで、パリの最高の日本食レストランで、給仕、マネージャー、ディレクターを務めました。",
       two: "寿司について聞いてみて 🍣 !",
       three:
         "数年前、私はそれに疲れ、人生を変えなければならないと考えました。",

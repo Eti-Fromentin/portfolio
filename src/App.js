@@ -4,18 +4,19 @@ import { useInView } from "react-intersection-observer";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-import styles from "./app.module.css";
 import Background from "./components/background";
 import Intro from "./components/intro";
 import Navbar from "./components/navbar";
 import ProjectOne from "./components/projectone";
 import ProjectTwo from "./components/projecttwo";
 import ProjectThree from "./components/projectthree";
+import ProjectPortfolio from "./components/projectportfolio";
 import LanguageButton from "./components/languageButton";
 import Resume from "./components/resume";
 import Contact from "./components/contact";
-
 import languageObject from "./components/langObject";
+
+import styles from "./app.module.css";
 
 function App() {
   const [language, setLanguage] = useState("english");
@@ -74,15 +75,18 @@ function App() {
             {chosenLangObj.app.works}
           </h2>
           <div className={styles.projects} ref={refWorks}>
-            <div data-aos="flip-right" data-aos-once="false">
+            <div className={styles.project}  data-aos="flip-right" data-aos-once="false">
               <ProjectOne lang={language} chosenLangObj={chosenLangObj.projectOne}/>
             </div>
-            <div data-aos="flip-left" data-aos-once="false">
+            <div className={styles.project}  data-aos="flip-left" data-aos-once="false">
               <ProjectTwo lang={language} chosenLangObj={chosenLangObj.projectTwo}/>
             </div>
-            <div data-aos="flip-right" data-aos-once="false">
+            <div className={styles.project}  data-aos="flip-right" data-aos-once="false">
               <ProjectThree lang={language} chosenLangObj={chosenLangObj.projectThree}/>
             </div>
+            <div className={styles.project}  data-aos="flip-left" data-aos-once="false">
+              <ProjectPortfolio lang={language} chosenLangObj={chosenLangObj.projectPortfolio}/>
+            </div> 
           </div>
         </section>
         <section className={styles.resume} ref={resumeRef}>
@@ -97,6 +101,8 @@ function App() {
           </h2>
           <Contact lang={language} scroll={scrollToRef} reference={introRef} chosenLangObj={chosenLangObj.contact}/>
         </section>
+        <p className={styles.avatarCopyright}>Avatar made by <a href="https://www.linkedin.com/in/sarah-accolas/" target="_blank"
+        rel="noreferrer">Sarah Accolas</a></p>
       </main>
     </div>
   );
