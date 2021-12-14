@@ -29,11 +29,12 @@
 }
 
 .avatar {
-    width: 60%;
+    width: auto;
     max-height: 30%;
     margin-bottom: 3vh;
     filter: grayscale(60%);
     object-fit: contain;
+    filter:drop-shadow(0 5px 20px rgba(193, 203, 164, 0.25))
 }
 
 @media screen and (min-width: 600px) { 
