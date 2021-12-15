@@ -1,4 +1,5 @@
 import React from "react";
+import Tilt from "react-parallax-tilt";
 
 import logo from "../assets/logoPiano.png";
 
@@ -6,7 +7,11 @@ import styles from "./projectthree.module.css";
 
 function ProjectThree({ lang, chosenLangObj }) {
   return (
-    <div className={styles.cardContainer}>
+    <Tilt className={styles.cardContainer} 
+    perspective={1000}
+    transitionSpeed={1500}
+    scale={1.1}
+    tiltReverse={true}>
       <div className={styles.cardTitle}>Piano Piano</div>
       <a
         target="_blank"
@@ -25,7 +30,7 @@ function ProjectThree({ lang, chosenLangObj }) {
         <br />
         {chosenLangObj.specs2}
       </p>
-    </div>
+    </Tilt>
   );
 }
 

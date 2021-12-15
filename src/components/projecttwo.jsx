@@ -1,4 +1,5 @@
 import React from "react";
+import Tilt from "react-parallax-tilt";
 
 import logo from "../assets/logo.png";
 
@@ -6,7 +7,11 @@ import styles from "./projecttwo.module.css";
 
 function ProjectTwo({ lang, chosenLangObj }) {
   return (
-    <div className={styles.cardContainer}>
+    <Tilt className={styles.cardContainer} 
+    perspective={1000}
+    transitionSpeed={1500}
+    scale={1.1}
+    tiltReverse={true}>
       <div className={styles.cardTitle}>Lazy Nights</div>
       {/* <a
         target="_blank"
@@ -24,7 +29,7 @@ function ProjectTwo({ lang, chosenLangObj }) {
         <br />
         Not yet deployed.
       </p>
-    </div>
+    </Tilt>
   );
 }
 

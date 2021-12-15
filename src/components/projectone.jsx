@@ -1,11 +1,18 @@
 import React from "react";
+import Tilt from "react-parallax-tilt";
 
 import WildAdvisorLogo from "../assets/Wild-advisor-logo.png";
 import styles from "./projectone.module.css";
 
 function ProjectOne({ lang, chosenLangObj }) {
   return (
-    <div className={styles.cardContainer}>
+    <Tilt
+      className={styles.cardContainer}
+      perspective={1000}
+      transitionSpeed={1500}
+      scale={1.1}
+      tiltReverse={true}
+    >
       <div className={styles.cardTitle}>Wild Advisor</div>
       <a
         target="_blank"
@@ -29,7 +36,7 @@ function ProjectOne({ lang, chosenLangObj }) {
         <br />
         {chosenLangObj.features}
       </p>
-    </div>
+    </Tilt>
   );
 }
 

@@ -150,12 +150,12 @@ const languageObject = {
     },
     projectThree: {
       description1: "24時間のハッカソンの結果です。",
-      description2: "子どもたちのことを考えた、ピアノを弾くためのアプリです。",
+      description2: "子どもたちがピアノを弾くためのアプリです。",
       specs1: "ReactJsと外部のライブラリで作られています。",
       specs2: "機能：ピアノ、録音、再生。",
     },
     projectPortfolio: {
-      description: "もちろん、このポートフォリオもです。これは初稿なので、時間とともに変わっていくかもしれませんが、私としてはこのシンプルな美学を維持していきたいと思っています。",
+      description: "もちろん、このポートフォリオもです。これは初稿なので、随時、試行錯誤しながらより良いものにしていきたいと思っています。",
       specs: "ReactJsと外部のライブラリで作られています。"
     },
     resume: {
@@ -171,7 +171,7 @@ const languageObject = {
       download: " ここ",
     },
     contact: {
-      mail: "メールを送ることができます、遠慮なくどうぞ。",
+      mail: "メールを送ることができます、ご遠慮なくどうぞ。",
       linkedin: "LinkedInで私を見つけることもできます。",
       github: "私のGitHubプロフィールををご覧ください。。",
     },

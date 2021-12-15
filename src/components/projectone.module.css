@@ -6,7 +6,6 @@
   background-color: rgba(55, 72, 99, 0.5);
   padding: 0.5em;
   position: relative;
-
   box-shadow: 0 10px 35px rgba(193, 203, 164, 0.25),
     0 -12px 30px rgba(193, 203, 164, 0.12), 
     0 4px 6px rgba(193, 203, 164, 0.12),
@@ -27,6 +26,11 @@
   max-width: 30%;
   margin: 0.5em;
   float: left;
+  filter:drop-shadow(0 5px 15px rgba(231, 229, 214, 0.25))
+}
+
+.logo:hover {
+  cursor: pointer;
 }
 
 .description {

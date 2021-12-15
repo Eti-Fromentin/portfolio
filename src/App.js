@@ -67,7 +67,7 @@ function App() {
       />
       <LanguageButton setLanguage={setLanguage} />
       <main className={styles.main} ref={introRef}>
-        <section ref={refIntro}>
+        <section data-aos="zoom-in" data-aos-delay="300" data-aos-once="false" data-aos-easing="ease-in-out-cubic" ref={refIntro}>
           <Intro lang={language} chosenLangObj={chosenLangObj.intro}/>
         </section>
         <section className={styles.work}>
@@ -89,13 +89,13 @@ function App() {
             </div> 
           </div>
         </section>
-        <section className={styles.resume} ref={resumeRef}>
+        <section className={styles.resume} data-aos="zoom-in" data-aos-delay="50" data-aos-easing="ease-in-out-quart" ref={resumeRef}>
           <h2 className={styles.resumeTitle} ref={refResume}>
           {chosenLangObj.app.identity} 
           </h2>
           <Resume lang={language} chosenLangObj={chosenLangObj.resume}/>
         </section>
-        <section className={styles.contact} ref={contactRef}>
+        <section className={styles.contact} data-aos="fade-up" data-aos-delay="200" ref={contactRef}>
           <h2 className={styles.resumeTitle} ref={refContact}>
           {chosenLangObj.app.contact}
           </h2>
