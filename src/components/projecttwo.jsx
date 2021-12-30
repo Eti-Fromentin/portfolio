@@ -13,13 +13,13 @@ function ProjectTwo({ lang, chosenLangObj }) {
     scale={1.1}
     tiltReverse={true}>
       <div className={styles.cardTitle}>Lazy Nights</div>
-      {/* <a
+      <a
         target="_blank"
         rel="noreferrer"
-        href="https://adecisy.github.io/Piano-Piano/"
-      > */}
+        href="https://lazy-nights.vercel.app/"
+      >
       <img className={styles.logo} src={logo} alt="Lazy Nights Logo" />
-      {/* </a> */}
+      </a>
       <p className={styles.description}>
       {chosenLangObj.description}
         <br />
@@ -27,7 +27,6 @@ function ProjectTwo({ lang, chosenLangObj }) {
       <p className={styles.specs}>
       {chosenLangObj.specs}
         <br />
-        Not yet deployed.
       </p>
     </Tilt>
   );
