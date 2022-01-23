@@ -1,3 +1,5 @@
+
+
 .cardContainer {
   width: 85vw;
   height: auto;
@@ -14,16 +16,18 @@
 }
 
 .cardTitle {
-  font-size: 1.7em;
+  font-size: 1.3em;
   color: #e7e5d6;
   margin: 0.5em;
+  margin-top: 0.7em;
   font-weight: bold;
+  /* font-family: "Gluten", sans-serif; */
 }
 
 .logo {
   height: 30%;
-  max-width: 30%;
-  margin: 1em;
+  max-width: 25%;
+  margin: 0.7em;
   float: left;
 }
 
@@ -31,11 +35,10 @@
   color: #e7e5d6;
   font-size: 0.7em;
   text-align: justify;
-  margin: 2vh 2vw auto 2vw;
 }
 
 .specs {
-  margin: 8vh auto 2vh 3vw;
+  margin: 3vh auto 1vh 3vw;
   color: #e7e5d6;
   font-size: 0.8em;
   text-align: justify;
@@ -48,10 +51,6 @@
     height: 45vh;
   }
 
-  .specs {
-    margin: 6vh 2vw 1vh 3vw;
-  }
-
   .logo {
     height: 10vh;
     max-width: auto;
@@ -61,7 +60,7 @@
     margin: 3vh 1vw auto auto;
   }
 
-  .cardTitle {
-    margin: 0.2em;
+  .specs {
+    margin: 6vh 2vw 1vh 3vw;
   }
 }

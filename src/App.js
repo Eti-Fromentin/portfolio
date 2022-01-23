@@ -11,6 +11,7 @@ import ProjectOne from "./components/projectone";
 import ProjectTwo from "./components/projecttwo";
 import ProjectThree from "./components/projectthree";
 import ProjectPortfolio from "./components/projectportfolio";
+import HackathonMano from "./components/hackathonMano";
 import LanguageButton from "./components/languageButton";
 import Resume from "./components/resume";
 import Contact from "./components/contact";
@@ -75,6 +76,9 @@ function App() {
             {chosenLangObj.app.works}
           </h2>
           <div className={styles.projects} ref={refWorks}>
+          <div className={styles.project}  data-aos="flip-right" data-aos-once="false">
+              <HackathonMano lang={language} chosenLangObj={chosenLangObj.hackathonMano}/>
+            </div>
             <div className={styles.project}  data-aos="flip-right" data-aos-once="false">
               <ProjectOne lang={language} chosenLangObj={chosenLangObj.projectOne}/>
             </div>

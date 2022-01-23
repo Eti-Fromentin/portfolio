@@ -36,6 +36,10 @@ const languageObject = {
       specs1: "Made with ReactJs and external libraries.",
       specs2: "Features: Piano, record and play.",
     },
+    hackathonMano: {
+      description: "1st Place of a 48 hours hackathon. Demonstration of how to inplement a social dimension to an e-commerce website.",
+      specs: "Made with ReactJs and some external libraries."
+    },
     projectPortfolio: {
       description: "And of course, this portfolio. This is the first draft, so it might change over time, but It will keep this modest esthetic, as I am.",
       specs: "Made with ReactJs and external libraries"
@@ -61,7 +65,7 @@ const languageObject = {
   french: {
     navbar: {
       home: "Accueil",
-      works: '"Mes Oeuvres"',
+      works: '"Oeuvres"',
       resume: "A mon Propos",
       contact: "Contact",
     },
@@ -78,7 +82,7 @@ const languageObject = {
     projectOne: {
       description1: "Premier projet de ma formation.",
       description2:
-        "Un site qui liste une sélection de lieux de restauration aux alentours de la formation.",
+        "Un site qui liste une sélection de lieux de restauration aux alentours du centre de formation.",
       specs: "HTML, CSS et Javascript/Manipulation du DOM.",
       features:
         "Liste dynamique d'enseignes, favoris (LocalStorage), et simple moteur de recherche.",
@@ -94,6 +98,10 @@ const languageObject = {
         "Une application pour jouer du piano en touchscreen ou clavier, avec l'apprentissage des tout-petits en tête.",
       specs1: "ReactJs et librairies externes.",
       specs2: "Piano, enregistrement et lecture.",
+    },
+    hackathonMano: {
+      description: "1ère place d'un hackathon de 48 heures. Démonstration de notre idée d'implémenter une dimension sociale au processus d'achat dans un site de e-commerce.",
+      specs: "ReactJs et quelques librairies externes."
     },
     projectPortfolio: {
       description: "Bien sûr, ce portfolio, que j'ai voulu à mon image, modeste et sans extravagances. Il s'agit d'une 1ére version, et qui évoluera, mais dans la même direction.",
@@ -154,6 +162,10 @@ const languageObject = {
       specs1: "ReactJsと外部のライブラリで作られています。",
       specs2: "機能：ピアノ、録音、再生。",
     },
+    hackathonMano: {
+      description: "48時間ハッカソンで、Eコマースサイトにソーシャルな側面を実装する方法を実証し、1位を獲得しました。",
+      specs: "ReactJsと外部のライブラリで作られています。"
+    },
     projectPortfolio: {
       description: "もちろん、このポートフォリオもです。これは初稿なので、随時、試行錯誤しながらより良いものにしていきたいと思っています。",
       specs: "ReactJsと外部のライブラリで作られています。"
@@ -168,7 +180,7 @@ const languageObject = {
       six: "これはまだ始まったばかりです。。。",
       seven:
         "古き時代の履歴書を紙で見たいという方は、ダウンロードしてください。",
-      download: " ここ",
+      download: "ここ",
     },
     contact: {
       mail: "メールを送ることができます、ご遠慮なくどうぞ。",

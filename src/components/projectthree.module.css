@@ -39,6 +39,7 @@
   color: #e7e5d6;
   font-size: 0.8em;
   text-align: justify;
+  font-style: oblique 30deg;
 }
 
 @media screen and (min-width: 600px) {
