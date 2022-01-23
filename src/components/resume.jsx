@@ -2,7 +2,7 @@ import React from "react";
 
 import styles from "./resume.module.css";
 
-import cv from "../assets/cv_fromentin.pdf";
+import cv from "../assets/cv_fromentin_etienne.pdf";
 
 function Resume({ lang, chosenLangObj }) {
   return (
