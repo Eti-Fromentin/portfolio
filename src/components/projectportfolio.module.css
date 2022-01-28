@@ -21,7 +21,7 @@
 }
 
 .logo {
-  height: 30%;
+  max-height: 30%;
   max-width: 30%;
   margin: 1em;
   float: left;
@@ -53,8 +53,8 @@
   }
 
   .logo {
-    height: 10vh;
-    max-width: auto;
+    max-height: 30%;
+    max-width: 30%;
   }
 
   .description {

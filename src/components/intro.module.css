@@ -35,8 +35,8 @@
 }
 
 .avatar {
-    width: auto;
-    max-height: 20vh;
+    max-height: 30%;
+    max-width: 30%;
     margin-bottom: 3vh;
    
     object-fit: contain;
