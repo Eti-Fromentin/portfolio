@@ -16,7 +16,7 @@ function HackathonMano({ lang, chosenLangObj }) {
       <a
         target="_blank"
         rel="noreferrer"
-        href="https://github.com/Eti-Fromentin/Hackathon-WCSxManoMano-Janvier-2022"
+        href="https://youtu.be/VxAnNkD-HeU"
       >
       <img className={styles.logo} src={logo} alt="ManoMano Logo" />
       </a>
